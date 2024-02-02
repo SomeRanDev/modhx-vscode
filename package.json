@@ -1,9 +1,19 @@
 {
   "name": "modhx",
   "author": "Robert Borghese (SomeRanDev)",
+  "publisher": "SomeRanDev",
+  "repository": "https://github.com/SomeRanDev/modhx-vscode",
   "displayName": "modhx",
   "description": "Adds syntax highlighting for `.modhx` files.",
-  "version": "1.0.0",
+  "tags": [
+      "haxe",
+      "modifaxe"
+  ],
+  "categories": [
+    "Language Packs"
+  ],
+  "icon": "images/icon.png",
+  "version": "1.0.3",
   "engines": {
     "vscode": "^1.86.0"
   },
