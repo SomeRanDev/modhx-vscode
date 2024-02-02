@@ -1,0 +1,26 @@
+{
+  "name": "modhx",
+  "author": "Robert Borghese (SomeRanDev)",
+  "displayName": "modhx",
+  "description": "Adds syntax highlighting for `.modhx` files.",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.86.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "modhx",
+      "aliases": ["modhx", "modhx"],
+      "extensions": [".modhx"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "modhx",
+      "scopeName": "source.modhx",
+      "path": "./syntaxes/modhx.tmLanguage.json"
+    }]
+  }
+}
